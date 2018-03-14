@@ -1,3 +1,4 @@
+/*
 var list = document.getElementById('list'),
 	add = document.getElementsByTagName('button'),
 	i = 1;
@@ -8,6 +9,7 @@ add[i - 1].addEventListener('click', function() {
     i++
 	}
 );
+*/
 
 var list = document.getElementById('list');  
 var add = document.getElementById('addElem');
