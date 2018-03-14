@@ -8,3 +8,15 @@ add[i - 1].addEventListener('click', function() {
     i++
 	}
 );
+
+var list = document.getElementById('list');  
+var add = document.getElementById('addElem');
+
+add.addEventListener('click', function () { 
+	
+	var liElements = list.getElementsByTagName('li'); 
+	var element = document.createElement('li'); 
+	element.innerHTML = "item " + liElements.length; 
+	list.appendChild(element); 
+	}
+); 
